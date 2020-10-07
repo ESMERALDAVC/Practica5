@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formato de inscripción licenciatura - Universidad Panamericana</title>
+</head>
+<body>
+    <section class="form-registro">
+        <h4>Formato de inscripción licenciatura - Universidad Panamericana</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
+        <input class="controls" type="text" name="licenciatura" id="licenciatura" placeholder="Ingrese el nombre de su licenciatura a ingresar">
+        <input class="controls" type="text" name="semestre" id="semestre" placeholder="Ingrese el semestre que cursa">
+        <input class="controls" type="text" name="tutor" id="tutor" placeholder="Ingrese el nombre de su tutor">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo electronico">
+        <div>Sexo: <br>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="sexo" value="femenino">
+            <label for="femenino">Femenino</label><br>
+        </div><br>
+        <div>
+            <label for="ciudad">Ciudad:</label>
+            <select name="ciudad">
+                <option value="TE">Tehuacán</option>
+                <option value="VA">Santiago Miahuatlán</option>
+                <option value="BA">Coapa</option>
+                <option value="M">Cuayuca</option>
+                <option value="TE">Otra</option>
+                <option value="" selected="selected"></option>
+            </select>
+        </div><br>
+        <div>Clases extraezcolares <br>
+            <input type="checkbox" id="deportes" name="aficiones" value="deportes">
+            <label for="deportes">Deportes</label><br>
+            <input type="checkbox" id="coches" name="aficiones" value="coches">
+            <label for="coches">Banda de musica</label><br>
+            <input type="checkbox" id="musica" name="aficiones" value="musica">
+            <label for="musica">Banda de guerra</label><br>
+            <input type="checkbox" id="coches" name="aficiones" value="coches">
+            <label for="coches">Curso de Protección Civil</label><br>
+            <input type="checkbox" id="coches" name="aficiones" value="coches">
+            <label for="coches">Danza</label><br>
+            <div><br>
+        </div><br>
+        <p>Estoy deacuerdo con <a href="#">Terminos y Condiciones</a></p>
+        <input class="boton" ctype="submit" name="submit" value="Enviar informacion">
+            <input class="boton" type="reset" name="reset" value="Limpiar formulario">
+        
+        <p><a href="#">¿Ya tengo cuenta?</a></p>
+    </section>
+    
+</body>
+</html>
