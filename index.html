@@ -11,8 +11,38 @@
         <h4>Formato de inscripción licenciatura - Universidad Panamericana</h4>
         <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
         <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
-        <input class="controls" type="text" name="licenciatura" id="licenciatura" placeholder="Ingrese el nombre de su licenciatura a ingresar">
-        <input class="controls" type="text" name="semestre" id="semestre" placeholder="Ingrese el semestre que cursa">
+        <div>
+            <label for="ciudad">Licenciatura</label>
+            <select name="ciudad">
+                <option value="TE">Negocios y administración</option>
+                <option value="VA">Ingeniería mecánica y metalurgia</option>
+                <option value="BA">Arquitectura y urbanismo</option>
+                <option value="M">Medicina</option>
+                <option value="TE">Ingeniería en Informática / Sistemas</option>
+                <option value="M">Psicología</option>
+                <option value="M">Contabilidad y fiscalización</option>
+                <option value="M">Comunicación</option>
+                <option value="M">Derecho</option>
+                <option value="M"></option>
+                <option value="" selected="selected"></option>
+            </select>
+        </div><br>
+        <div>
+            <label for="ciudad">Semestre al que ingresa</label>
+            <select name="ciudad">
+                <option value="TE">Primer semestre</option>
+                <option value="VA">Segundo semestre</option>
+                <option value="BA">Tercer semestre</option>
+                <option value="M">Cuarto semestre</option>
+                <option value="TE">Quinto semestre</option>
+                <option value="TE">Sexto semestre</option>
+                <option value="TE">Septimo semestre</option>
+                <option value="TE">Octavo semestre</option>
+                <option value="TE">Noveno semestre</option>
+                <option value="TE">Decimo semestre</option>
+                <option value="" selected="selected"></option>
+            </select>
+        </div><br>
         <input class="controls" type="text" name="tutor" id="tutor" placeholder="Ingrese el nombre de su tutor">
         <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo electronico">
         <div>Sexo: <br>
@@ -32,7 +62,7 @@
                 <option value="" selected="selected"></option>
             </select>
         </div><br>
-        <div>Clases extraezcolares <br>
+        <div>Clases extraescolares <br>
             <input type="checkbox" id="deportes" name="aficiones" value="deportes">
             <label for="deportes">Deportes</label><br>
             <input type="checkbox" id="coches" name="aficiones" value="coches">
@@ -43,11 +73,10 @@
             <label for="coches">Curso de Protección Civil</label><br>
             <input type="checkbox" id="coches" name="aficiones" value="coches">
             <label for="coches">Danza</label><br>
-            <div><br>
-        </div><br>
-        <p>Estoy deacuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="boton" ctype="submit" name="submit" value="Enviar informacion">
-            <input class="boton" type="reset" name="reset" value="Limpiar formulario">
+             <p>Estoy deacuerdo con <a href="#">Terminos y Condiciones</a></p>
+            <input type="submit" name="submit" value="Enviar informacion">
+            <input type="reset" name="reset" value="Limpiar formulario">
+            </div><br>
         
         <p><a href="#">¿Ya tengo cuenta?</a></p>
     </section>
